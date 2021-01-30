@@ -20,7 +20,7 @@ config = {
         "FILE_UPLOAD_BUCKET_NAME": "openedxuploads",
         "VIDEO_UPLOAD_BUCKET_NAME": "openedxvideos",
         "HOST": "minio.{{ LMS_HOST }}",
-        "DOCKER_IMAGE": "{{ DOCKER_REGISTRY }}overhangio/minio:{{ MINIO_VERSION }}",
+        "DOCKER_IMAGE": "{{ DOCKER_REGISTRY }}minio:{{ MINIO_VERSION }}",
         "GATEWAY": None,
     },
 }
